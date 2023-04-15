@@ -1,10 +1,7 @@
 /*
-  X-Frame-Options: DENY
-/*
-  Referrer-Policy: no-referrer
-/* 
-  Content-Security-Policy: child-src 'self' app.netlify.com; script-src 'self' app.netlify.com netlify-cdp-loader.netlify.app;
-/*
- X-Content-Type-Options: nosniff
-/*
-  Permissions-Policy: <directive> <allowlist>
+X-Frame-Options: DENY
+Referrer-Policy: no-referrer
+Content-Security-Policy: child-src 'self' app.netlify.com; script-src 'self' app.netlify.com netlify-cdp-loader.netlify.app;
+X-Content-Type-Options: nosniff
+Permissions-Policy: <directive> <allowlist>
+Permissions-Policy: geolocation=(self "https://example.com"), microphone=()
